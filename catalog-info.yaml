@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-app
+  annotations:
+    github.com/project-slug: elkouhen/my-app
+spec:
+  type: other
+  lifecycle: unknown
+  owner: elkouhen

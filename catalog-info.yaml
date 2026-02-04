@@ -4,6 +4,7 @@ metadata:
   name: my-app
   annotations:
     github.com/project-slug: elkouhen/my-app
+    backstage.io/openapi-ref: url:https://github.com/elkouhen/my-app/blob/main/openapi.yaml
 spec:
   type: other
   lifecycle: unknown

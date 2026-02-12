@@ -1,23 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: openapi-sample-service
-  description: Sample service exposing an OpenAPI API
+  name: myapp-service
+  description: MyApp Api
   tags:
     - nodejs
-    - example
 spec:
   type: service
   lifecycle: experimental
   owner: user:guest
   providesApis:
-    - openapi-sample-api
+    - myapp-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: openapi-sample-api
-  description: Sample OpenAPI for Backstage
+  name: myapp-api
+  description: MyApp OpenAPI
 spec:
   type: openapi
   lifecycle: experimental

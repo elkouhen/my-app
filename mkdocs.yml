@@ -5,4 +5,4 @@ theme:
   name: material
 
 nav:
-  - Home: README.md
+  - Home: index.md

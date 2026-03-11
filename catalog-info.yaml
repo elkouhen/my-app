@@ -5,7 +5,7 @@ metadata:
   description: MyApp Api
   annotations:
     jenkins.io/job-full-name: 'poc-airflow'
-    backstage.io/techdocs-ref: true
+    backstage.io/techdocs-ref: dir:.
   tags:
     - nodejs
 spec:

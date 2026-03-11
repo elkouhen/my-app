@@ -4,6 +4,7 @@ metadata:
   name: myapp-service
   description: MyApp Api
   annotations:
+    github.com/project-slug: elkouhen/my-app
     jenkins.io/job-full-name: 'poc-airflow'
     backstage.io/techdocs-ref: dir:.
   tags:

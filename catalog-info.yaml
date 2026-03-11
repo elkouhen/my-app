@@ -12,7 +12,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: user:guest
+  owner: user:elkouhen
   providesApis:
     - myapp-api
 ---

@@ -12,7 +12,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: user:elkouhen
+  owner: group:ACC
   providesApis:
     - myapp-api
 ---
@@ -24,6 +24,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: user:elkouhen
+  owner: group:ACC
   definition:
     $text: ./openapi.yaml

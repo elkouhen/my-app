@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: myapp-service
   description: MyApp Api
+  annotations:
+    jenkins.io/job-full-name: 'poc-airflow' # use this instead
   tags:
     - nodejs
 spec:

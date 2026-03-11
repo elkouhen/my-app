@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: myapp-service
-  description: MyApp Api
+  description: my-app
   annotations:
     github.com/project-slug: elkouhen/my-app
     jenkins.io/job-full-name: poc-airflow
@@ -24,6 +24,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: user:guest
+  owner: user:elkouhen
   definition:
     $text: ./openapi.yaml

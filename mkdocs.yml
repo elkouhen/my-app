@@ -1,1 +1,8 @@
+site_name: MyApp MkDocs
 
+site_url: https://github.com/elkouhen/my-app
+theme:
+  name: material
+
+nav:
+  - Home: README.md

@@ -4,7 +4,8 @@ metadata:
   name: myapp-service
   description: MyApp Api
   annotations:
-    jenkins.io/job-full-name: 'poc-airflow' # use this instead
+    jenkins.io/job-full-name: 'poc-airflow'
+    backstage.io/techdocs-ref: true
   tags:
     - nodejs
 spec:
